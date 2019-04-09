@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   let i = 1;
   while (i <= 50){
     if (even){
-      result += `<p>${i} Soy Inpar!</p>`
+      result += `<p>${i} Soy Impar!</p>`
       even = false 
     } else {
       result += `<p>${i} Soy Par!`
